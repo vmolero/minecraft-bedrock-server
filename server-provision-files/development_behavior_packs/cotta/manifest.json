@@ -1,0 +1,26 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Cotta Behavior Pack",
+    "description": "My TypeScript Project",
+    "uuid": "21039051-a053-42ee-9b45-15e90f12d425",
+    "version": [0, 0, 1],
+    "min_engine_version": [1, 20, 0]
+  },
+  "modules": [
+    {
+      "description": "Script resources",
+      "language": "javascript",
+      "type": "script",
+      "uuid": "4805687e-4b88-40fd-b827-2ef531d0ca9f",
+      "version": [0, 0, 1],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.4.0-beta"
+    }
+  ]
+}
